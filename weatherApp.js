@@ -33,7 +33,8 @@ $(document).ready(function() {
 		var icon = data.weather[0].icon;
 		$('h2').html(city);
 		$('#num').html(temp);
-		$('#desc').html(desc)
-		$('img').attr('src', icon)
+		$('#desc').html(desc);
+		$('img').attr('src', icon);
+		$('span').html('&#176;');
 	}
 });
