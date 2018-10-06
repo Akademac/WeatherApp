@@ -20,16 +20,18 @@ body {
 	grid-template-columns: auto auto;
 	justify-content: center;
 	margin-top: -10px;
+	padding: 5px;
 }
 
 #temp h1 {
-	font-size: 8rem;
-	margin-right: -30px;
+	font-size: 7rem;
+	margin-right: -20px;
 }
 
 #temp span {
-	font-size: 6rem;
+	font-size: 5rem;
 	margin-top: 50px;
+	margin-right: -10px;
 
 }
 
@@ -40,9 +42,9 @@ img {
 }
 
 p {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-top: -40px;
-	margin-left: 10px;
+	text-transform: uppercase;
 }
 
 h2 {
